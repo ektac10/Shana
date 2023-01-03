@@ -1,0 +1,10 @@
+.toptitle{ background-color: #ffa0be;padding: 10px;text-align: center;}
+.toptitle h6{font-size: 14px; letter-spacing: 5px; color: #111111; line-height: 1.3; text-transform: uppercase;margin-bottom: 0px;}
+.topheader{display:flex;align-items: center;justify-content: space-between;}
+.cntcinfo-itm a:hover{color:#ea0f6b;}
+
+.cntcicon{max-width:50px;height:50px;flex:0 0 50px;margin-right:20px;background-color:#000000;color:#ffffff;font-size:24px;display:inline-flex;align-items:center;justify-content:center;border-radius:100%;}
+
+.cntcinfosec{padding:30px 20px;background-color:#eeeeee;padding:30px 20px;}
+
+.cntcinfosec .sectitle{margin-bottom: 20px;}
