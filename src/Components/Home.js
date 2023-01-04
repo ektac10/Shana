@@ -1,7 +1,11 @@
 import React from 'react'
+import SlickSlider from './SlickSlider'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <>
+    <div> <SlickSlider /></div>
+     
+    </>
   )
 }

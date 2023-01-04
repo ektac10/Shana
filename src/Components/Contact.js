@@ -1,5 +1,6 @@
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 
 export default function Contact() {
@@ -12,14 +13,14 @@ export default function Contact() {
               <h3>Informations de contact</h3>
             </div>
             <div className="cntcinfo-itm">
-              <span className="cntcicon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+              <span className="cntcicon"><FontAwesomeIcon icon={faLocationDot} /> </span>
               E-commerce basé sur Nouméa.
               Livraison OPT offerte sur toute la NC à partir de 6 000 XPF d'achat.
               Livraison OPT offerte dans toute l'Océanie à partir de 14 000 XPF d'achat.
             </div>
             <div className="cntcinfo-itm">
-              <span className="cntcicon"></span>
-                {/* <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon> */}
+              <span className="cntcicon">  <FontAwesomeIcon icon={faEnvelope} /> </span>
+              
               <a href="mailto:contact@shana.nc">contact@shana.nc</a>
             </div>
           </div>
@@ -56,6 +57,9 @@ export default function Contact() {
                   </div>
                 </div>
               </dv>
+              <div className="submitbtn">
+               <input class="form-control" type="submit" value="Envoyer" />
+              </div>
             </form>
           </div>
         </div>
